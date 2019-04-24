@@ -1,0 +1,7 @@
+No config file found, using default configuration
+************* Module dataframe
+C: 11, 0: Line too long (105/100) (line-too-long)
+
+------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 8.64/10, +0.89)
+
