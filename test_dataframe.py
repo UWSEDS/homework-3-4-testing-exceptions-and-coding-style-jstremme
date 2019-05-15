@@ -10,7 +10,7 @@ class UnitTests(unittest.TestCase):
         '''Test that dataframe has at least one row'''
 
         data = read_congress_terms()
-        self.assertTrue(data.shape[0] > 1)
+        self.assertTrue(data.shape[0] >= 1)
 
     def test_expected_cols_present(self):
         '''Test that dataframe has the expected columns'''
