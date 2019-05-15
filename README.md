@@ -1,8 +1,7 @@
 # Homework 3-4: Coding style and Unit tests.
 
-##### Grade: 9/14   
+##### Grade: 11/14   
 
--2: dataframe.py - your test will pass even when the DF has no columns at all.  
 -2: test_dataframe.py - test names should be more descriptive   
 -1: test_dataframe.py - this might be outside the scope of this class since we are only starting to write tests, but I think this is an important point to make. In test_one_row(), you have self.assertFalse(data_frame.shape[0] < 1). Technically, this double negative works, but people usually (they should almost always!) prefer a single positive condition over a double negative condition.
 
